@@ -1,10 +1,10 @@
 def numCheck(num):
   # чётное число
   if num % 2 == 0:
-    print("Pāra skaitlis:")
+    print("Numurs", num, "ir pat")
   # нечётное число
   elif num % 2 != 0:
-    print("Nepāra skaitlis")
+    print("Numurs", num, "ir nepat")
   
   return
 
